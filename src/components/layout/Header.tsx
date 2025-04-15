@@ -2,12 +2,12 @@ import React from 'react'
 
 const Header: React.FC = () => {
   return (
-    <header className='bg-white shadow-sm'>
+    <header className='bg-black shadow-sm'>
       <nav className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='flex justify-between h-16'>
           <div className='flex items-center'>
-            <a href='/' className='text-xl font-bold text-gray-900'>
-              Your Name
+            <a href='/' className='text-xl font-bold text-primary'>
+              Gergo Kovacs
             </a>
           </div>
           <div className='flex items-center space-x-4'>
