@@ -1,6 +1,7 @@
 import React from 'react'
 import ScrambleText from '../common/ScrambleText'
 import AnimatedFrame from '../common/AnimatedFrame'
+import Label from '../common/Label'
 
 const MainContent: React.FC = () => {
   return (
@@ -29,6 +30,7 @@ const MainContent: React.FC = () => {
 
       {/* About Section */}
       <section id='about' className='py-20'>
+        <Label>test</Label>
         <h2 className='text-3xl font-bold text-stone-900 mb-8'>About Me</h2>
         {/* Add your about content here */}
         <AnimatedFrame>
