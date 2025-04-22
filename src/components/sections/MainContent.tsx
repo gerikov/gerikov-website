@@ -1,5 +1,6 @@
 import React from 'react'
 import ScrambleText from '../common/ScrambleText'
+import AnimatedFrame from '../common/AnimatedFrame'
 
 const MainContent: React.FC = () => {
   return (
@@ -30,6 +31,13 @@ const MainContent: React.FC = () => {
       <section id='about' className='py-20'>
         <h2 className='text-3xl font-bold text-stone-900 mb-8'>About Me</h2>
         {/* Add your about content here */}
+        <AnimatedFrame>
+          <div className='flex flex-col items-center space-y-2 h-36'>
+            <p className='text-xl text-white/50'>
+              I'm a frontend developer with a passion for creating beautiful and functional web experiences.
+            </p>
+          </div>
+        </AnimatedFrame>
       </section>
 
       {/* Projects Section */}
