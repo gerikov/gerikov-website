@@ -1,14 +1,19 @@
 import React from 'react'
+import ScrambleText from '../common/ScrambleText'
 
 const MainContent: React.FC = () => {
   return (
     <main className='mx-auto px-4 sm:px-6 lg:px-8'>
       {/* Hero Section */}
       <section className='max-w-[1300px] w-full mx-auto min-h-[calc(100vh-4rem)] flex flex-col justify-center items-center border-r border-b border-l border-stone-800'>
-        <h1 className='text-4xl font-bold text-white mb-4'>A frontend developer who</h1>
-        <p className='text-xl text-white/50'>designs with purpose</p>
-        <p className='text-xl text-white/50'>codes with precision</p>
-        <p className='text-xl text-white/50'>creates with care</p>
+        <h1 className='text-4xl font-bold text-white mb-4'>
+          <ScrambleText text='A frontend developer who' className='text-primary' scrambleSpeed={80} />
+        </h1>
+        <div className='flex flex-col items-center space-y-2'>
+          <ScrambleText text='designs with purpose' className='text-xl text-white/50' scrambleSpeed={150} />
+          <ScrambleText text='codes with precision' className='text-xl text-white/50' scrambleSpeed={150} />
+          <ScrambleText text='creates with care' className='text-xl text-white/50' scrambleSpeed={160} />
+        </div>
       </section>
 
       {/* About Section */}
