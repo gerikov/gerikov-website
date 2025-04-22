@@ -10,9 +10,19 @@ const MainContent: React.FC = () => {
           <ScrambleText text='A frontend developer who' className='text-primary' scrambleSpeed={80} />
         </h1>
         <div className='flex flex-col items-center space-y-2'>
-          <ScrambleText text='designs with purpose' className='text-xl text-white/50' scrambleSpeed={150} />
-          <ScrambleText text='codes with precision' className='text-xl text-white/50' scrambleSpeed={150} />
-          <ScrambleText text='creates with care' className='text-xl text-white/50' scrambleSpeed={160} />
+          <ScrambleText
+            text='designs with purpose'
+            className='text-xl text-white/50'
+            scrambleSpeed={150}
+            delay={1000}
+          />
+          <ScrambleText
+            text='codes with precision'
+            className='text-xl text-white/50'
+            scrambleSpeed={150}
+            delay={2000}
+          />
+          <ScrambleText text='creates with care' className='text-xl text-white/50' scrambleSpeed={160} delay={3000} />
         </div>
       </section>
 
