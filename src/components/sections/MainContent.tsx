@@ -2,6 +2,8 @@ import React from 'react'
 import ScrambleText from '../common/ScrambleText'
 import AnimatedFrame from '../common/AnimatedFrame'
 import Label from '../common/Label'
+import TestSection from './TestSection'
+import ProjectSection from './ProjectSection'
 
 const MainContent: React.FC = () => {
   return (
@@ -43,15 +45,16 @@ const MainContent: React.FC = () => {
       </section>
 
       {/* Projects Section */}
-      <section id='projects' className='py-20'>
-        <h2 className='text-3xl font-bold text-stone-900 mb-8'>Projects</h2>
-        {/* Add your projects content here */}
-      </section>
+      <ProjectSection />
 
       {/* Contact Section */}
       <section id='contact' className='py-20'>
         <h2 className='text-3xl font-bold text-stone-900 mb-8'>Contact</h2>
         {/* Add your contact content here */}
+        <div className='h-screen'></div>
+        <div className='h-screen'></div>
+        <div className='h-screen'></div>
+        <div className='h-screen'></div>
       </section>
     </main>
   )
