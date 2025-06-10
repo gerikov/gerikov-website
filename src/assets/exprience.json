@@ -1,0 +1,51 @@
+{
+  "experience": [
+    {
+      "date": "2012 - 2020",
+      "title": "Field Engineer",
+      "company": "CNC-Pro Kft.",
+      "description": [
+        "Communicated directly with clients, building strong interpersonal and soft skills",
+        "Installed, maintained, and repaired technical machinery across various locations",
+        "Diagnosed and resolved issues on-site, enhancing problem-solving under pressure",
+        "Gained hands-on experience in technical troubleshooting and independent decision-making"
+      ]
+    },
+    {
+      "date": "2020 - 2022",
+      "title": "Web Developer",
+      "company": "Freelancer",
+      "description": [
+        "Completed various project-based tasks with JavaScript. (80% React - 20% Node.js)",
+        "Built reusable React components to improve efficiency and maintainability.",
+        "Developed different API endpoints based on frontend requirements.",
+        "Strengthened problem-solving skills through independent project work."
+      ]
+    },
+    {
+      "date": "2022 - ",
+      "title": "Frontend Developer",
+      "company": "Whizgrid Ltd.",
+      "description": [
+        "Built and integrated blockchain-based platform components for seamless functionality.",
+        "Translated Figma designs into responsive and high-performance interfaces.",
+        "Optimized performance and state management using modern React packages.",
+        "Worked with an international team in a dynamic startup environment.",
+        "Designed, developed, and deployed multiple web applications from the ground up, taking full ownership of the frontend lifecycle.",
+        "Created intuitive, consistent user interfaces aligned with branding guidelines to ensure a seamless and engaging user experience.",
+        "Evaluated and integrated the most suitable libraries based on project goals, focusing on performance, scalability, and long-term maintainability.",
+        "Collaborated cross-functionally with backend teams to shape and define efficient APIs and services optimized for frontend integration"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "level": "B2"
+    },
+    {
+      "name": "Hungarian",
+      "level": "Native"
+    }
+  ]
+}

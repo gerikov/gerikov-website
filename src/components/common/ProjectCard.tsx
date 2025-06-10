@@ -9,7 +9,7 @@ type Props = {
 const ProjectCard = ({ image, title, description, tags, link }: Props) => {
   return (
     <div className='project z-10 p-10 w-full bg-[#0a0a0a] border-1 border-primary/20 rounded-md'>
-      <div className='flex gap-10'>
+      <div className='flex gap-10 flex-col md:flex-row'>
         <div className='flex-1'>
           <img src={image} alt={title} className='w-full max-w-[500px]' />
         </div>

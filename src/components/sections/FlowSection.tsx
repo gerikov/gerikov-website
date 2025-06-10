@@ -6,7 +6,7 @@ const FlowSection = () => {
       <div className='flex justify-center'>
         <Label>Process</Label>
       </div>
-      <div className='flex'>
+      <div className='flex flex-wrap justify-center'>
         <FlowItem
           title='Research'
           description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.'
@@ -48,7 +48,7 @@ const FlowItem = ({
   number: string
 }) => {
   return (
-    <div className='group flex flex-col  border-1 border-stone-900 p-4 hover:bg-primary transition-all duration-300'>
+    <div className='group flex flex-col  border-1 border-stone-900 p-4 hover:bg-primary transition-all duration-300 max-w-[400px]'>
       <div className='text-sm font-bold text-text-alter group-hover:text-white transition-all duration-300 flex items-center mb-4'>
         {number}
       </div>

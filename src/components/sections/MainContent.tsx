@@ -6,6 +6,7 @@ import TestSection from './TestSection'
 import ProjectSection from './ProjectSection'
 import FlowSection from './FlowSection'
 import SkillsSection from './SkillsSection'
+import WorkExperienceSection from './WorkExperienceSection'
 
 const MainContent: React.FC = () => {
   return (
@@ -54,6 +55,9 @@ const MainContent: React.FC = () => {
 
       {/* Skills Section */}
       <SkillsSection />
+
+      {/* Work Experience Section */}
+      <WorkExperienceSection />
 
       {/* Contact Section */}
       <section id='contact' className='py-20'>
