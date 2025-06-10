@@ -4,6 +4,8 @@ import AnimatedFrame from '../common/AnimatedFrame'
 import Label from '../common/Label'
 import TestSection from './TestSection'
 import ProjectSection from './ProjectSection'
+import FlowSection from './FlowSection'
+import SkillsSection from './SkillsSection'
 
 const MainContent: React.FC = () => {
   return (
@@ -46,6 +48,12 @@ const MainContent: React.FC = () => {
 
       {/* Projects Section */}
       <ProjectSection />
+
+      {/* Flow Section */}
+      <FlowSection />
+
+      {/* Skills Section */}
+      <SkillsSection />
 
       {/* Contact Section */}
       <section id='contact' className='py-20'>

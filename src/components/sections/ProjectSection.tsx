@@ -5,6 +5,7 @@ import { useRef } from 'react'
 
 import ApexCover from '../../assets/apex-cover.png'
 import ProjectCard from '../common/ProjectCard'
+import Label from '../common/Label'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -47,7 +48,9 @@ const ProjectSection = () => {
   return (
     <section id='projects' className='projects py-20' ref={container}>
       <div className='projects-container relative '>
-        <h2 className=' project-title text-3xl font-bold text-stone-900 mb-8'>Projects</h2>
+        <div className='flex justify-center project-title mb-10'>
+          <Label>Projects</Label>
+        </div>
         <div className='flex flex-col gap-10 w-full top-20 left-0'>
           <ProjectCard
             image={ApexCover}
