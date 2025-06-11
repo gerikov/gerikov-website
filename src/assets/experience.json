@@ -47,5 +47,86 @@
       "name": "Hungarian",
       "level": "Native"
     }
+  ],
+  "frameworks": [
+    {
+      "name": "TypeScript",
+      "icon": "language"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "language"
+    },
+    {
+      "name": "React.js",
+      "icon": "language"
+    },
+    {
+      "name": "Next.js",
+      "icon": "language"
+    },
+    {
+      "name": "Node.js",
+      "icon": "language"
+    },
+
+    {
+      "name": "HTML",
+      "icon": "language"
+    },
+    {
+      "name": "CSS",
+      "icon": "language"
+    }
+  ],
+  "technologies": [
+    {
+      "name": "Git",
+      "icon": "language"
+    },
+    {
+      "name": "Figma",
+      "icon": "language"
+    },
+    {
+      "name": "Blockchain",
+      "icon": "language"
+    },
+    {
+      "name": "Tailwind CSS",
+      "icon": "language"
+    },
+    {
+      "name": "Material UI",
+      "icon": "language"
+    },
+    {
+      "name": "Shadcn UI",
+      "icon": "language"
+    },
+    {
+      "name": "Redux",
+      "icon": "language"
+    },
+    {
+      "name": "React Router",
+      "icon": "language"
+    },
+    {
+      "name": "Framer Motion",
+      "icon": "language"
+    },
+    {
+      "name": "React Query",
+      "icon": "language"
+    },
+    {
+      "name": "React Hook Form",
+      "icon": "language"
+    },
+    {
+      "name": "Tanstack Query",
+      "icon": "language"
+    }
   ]
 }

@@ -1,5 +1,5 @@
 import Label from '../common/Label'
-import experience from '../../assets/exprience.json'
+import experience from '../../assets/experience.json'
 import WorkExperienceItem from '../common/WorkExperienceItem'
 
 const WorkExperienceSection = () => {
