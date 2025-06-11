@@ -2,32 +2,32 @@ import Label from '../common/Label'
 
 const FlowSection = () => {
   return (
-    <section className='flex flex-col gap-10'>
+    <section className='flex flex-col gap-10 py-10'>
       <div className='flex justify-center'>
         <Label>Process</Label>
       </div>
       <div className='flex flex-wrap justify-center'>
         <FlowItem
-          title='Research'
-          description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.'
+          title='Research & Understand'
+          description='I start by getting to know you, your goals, and your audience. This helps me uncover what your website really needs and how it can stand out in your industry.'
           icon='search_insights'
           number='01'
         />
         <FlowItem
-          title='Design'
-          description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.'
+          title='Design & Plan'
+          description='With the insights from research, I create wireframes and visual concepts that reflect your brand and focus on a smooth, user-friendly experience.'
           icon='design_services'
           number='02'
         />
         <FlowItem
-          title='Develop'
-          description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.'
+          title='Build & Develop'
+          description='Once the design is approved, I bring everything to life using clean, responsive code—making sure your site looks great and works flawlessly on all devices.'
           icon='code'
           number='03'
         />
         <FlowItem
-          title='Iterate'
-          description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.'
+          title='Test & Improve'
+          description='After launch, I don’t just walk away. I test, gather feedback, and refine the site to make sure it keeps performing and growing with your business.'
           icon='loop'
           number='04'
         />
@@ -52,7 +52,7 @@ const FlowItem = ({
       <div className='text-sm font-bold text-text-alter group-hover:text-white transition-all duration-300 flex items-center mb-4'>
         {number}
       </div>
-      <div className=' flex text-2xl font-bold text-primary group-hover:text-white transition-all duration-300 items-center gap-1'>
+      <div className=' flex text-2xl font-bold text-primary group-hover:text-white transition-all duration-300 items-center gap-1 mb-2'>
         <span className='material-symbols-outlined text-primary group-hover:text-white transition-all duration-300 '>
           {icon}
         </span>

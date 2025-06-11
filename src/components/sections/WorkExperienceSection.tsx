@@ -4,7 +4,7 @@ import WorkExperienceItem from '../common/WorkExperienceItem'
 
 const WorkExperienceSection = () => {
   return (
-    <section className='py-20'>
+    <section className='py-10'>
       <div className='flex justify-center mb-10'>
         <Label>Work Experience</Label>
       </div>

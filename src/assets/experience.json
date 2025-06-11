@@ -80,53 +80,17 @@
     }
   ],
   "technologies": [
-    {
-      "name": "Git",
-      "icon": "language"
-    },
-    {
-      "name": "Figma",
-      "icon": "language"
-    },
-    {
-      "name": "Blockchain",
-      "icon": "language"
-    },
-    {
-      "name": "Tailwind CSS",
-      "icon": "language"
-    },
-    {
-      "name": "Material UI",
-      "icon": "language"
-    },
-    {
-      "name": "Shadcn UI",
-      "icon": "language"
-    },
-    {
-      "name": "Redux",
-      "icon": "language"
-    },
-    {
-      "name": "React Router",
-      "icon": "language"
-    },
-    {
-      "name": "Framer Motion",
-      "icon": "language"
-    },
-    {
-      "name": "React Query",
-      "icon": "language"
-    },
-    {
-      "name": "React Hook Form",
-      "icon": "language"
-    },
-    {
-      "name": "Tanstack Query",
-      "icon": "language"
-    }
+    "Git",
+    "Figma",
+    "Blockchain",
+    "Tailwind CSS",
+    "Material UI",
+    "ShadCN UI",
+    "Redux",
+    "React Router",
+    "Framer Motion",
+    "Zod",
+    "React Hook Form",
+    "Tanstack Query"
   ]
 }

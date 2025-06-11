@@ -6,6 +6,7 @@ import { useRef } from 'react'
 import ApexCover from '../../assets/apex-cover.png'
 import ProjectCard from '../common/ProjectCard'
 import Label from '../common/Label'
+import { maxWidth } from '../../config'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -46,7 +47,11 @@ const ProjectSection = () => {
     { scope: container }
   )
   return (
-    <section id='projects' className='projects py-20' ref={container}>
+    <section
+      id='projects'
+      className={`projects py-20 max-w-[${maxWidth}] w-full mx-auto px-4 sm:px-6 lg:px-8`}
+      ref={container}
+    >
       <div className='projects-container relative '>
         <div className='flex justify-center project-title mb-10'>
           <Label>Projects</Label>

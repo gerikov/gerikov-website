@@ -5,7 +5,7 @@ import experience from '../../assets/experience.json'
 
 const SkillsSection = () => {
   return (
-    <section className='py-20'>
+    <section className='py-10'>
       <div className='flex justify-center mb-10'>
         <Label>Skills</Label>
       </div>
@@ -38,15 +38,15 @@ const SkillsSection = () => {
       <h3 className='text-2xl text-text-alter font-bold mt-10 mb-4'>Technologies</h3>
       <div className='flex flex-wrap gap-2 mb-4'>
         {experience.technologies.map((technology) => (
-          <div key={technology.name} className='flex items-center gap-2'>
+          <div key={technology} className='flex items-center gap-2'>
             <span className='text-sm  bg-primary/20 px-3 py-1 rounded-lg border border-primary/20 text-text-alter'>
-              {technology.name}
+              {technology}
             </span>
           </div>
         ))}
       </div>
       <h3 className='text-2xl text-text-alter font-bold mt-10 mb-4'>Languages</h3>
-      <ul className='text-white/50'>
+      <ul className='text-text-alter'>
         {experience.languages.map((language) => (
           <li className='flex items-center gap-2 mb-1'>
             <span className='material-symbols-outlined' style={{ fontSize: '20px' }}>
@@ -62,7 +62,7 @@ const SkillsSection = () => {
 
 const SkillItem = ({ name, icon = 'language' }: { name: string; icon: string }) => {
   return (
-    <div className='flex flex-col items-center justify-center gap-2 mb-1 bg-gradient-to-br from-primary/20 to-primary/50 p-2 rounded-lg text-text-alter border border-primary/20 w-32 h-24'>
+    <div className='flex flex-col items-center justify-center gap-2 mb-1 bg-gradient-to-br from-primary/0 to-primary/15 p-2 rounded-lg text-text-alter border border-primary/20 w-32 h-24'>
       <span className='material-symbols-outlined' style={{ fontSize: '20px' }}>
         {icon}
       </span>
