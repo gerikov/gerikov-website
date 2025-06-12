@@ -7,6 +7,7 @@ import ApexCover from '../../assets/apex-cover.png'
 import ProjectCard from '../common/ProjectCard'
 import Label from '../common/Label'
 import { maxWidth } from '../../config'
+import { cn } from '../../lib/utils'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -49,7 +50,7 @@ const ProjectSection = () => {
   return (
     <section
       id='projects'
-      className={`projects py-20 max-w-[${maxWidth}] w-full mx-auto px-4 sm:px-6 lg:px-8`}
+      className={cn(`projects py-20 w-full mx-auto px-4 sm:px-6 lg:px-8`, maxWidth)}
       ref={container}
     >
       <div className='projects-container relative '>

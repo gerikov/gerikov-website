@@ -1,10 +1,12 @@
 import Label from '../common/Label'
 import experience from '../../assets/experience.json'
 import WorkExperienceItem from '../common/WorkExperienceItem'
+import { maxWidth } from '../../config'
+import { cn } from '../../lib/utils'
 
 const WorkExperienceSection = () => {
   return (
-    <section className='py-10'>
+    <section className={cn('py-10 mx-auto px-4', maxWidth)}>
       <div className='flex justify-center mb-10'>
         <Label>Work Experience</Label>
       </div>

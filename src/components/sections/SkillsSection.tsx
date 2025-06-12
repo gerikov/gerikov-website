@@ -2,10 +2,12 @@ import Label from '../common/Label'
 
 import wave from '../../assets/patterns/wave.svg'
 import experience from '../../assets/experience.json'
+import { maxWidth } from '../../config'
+import { cn } from '../../lib/utils'
 
 const SkillsSection = () => {
   return (
-    <section className='py-10'>
+    <section className={cn('py-10 mx-auto px-4', maxWidth)}>
       <div className='flex justify-center mb-10'>
         <Label>Skills</Label>
       </div>
@@ -36,7 +38,7 @@ const SkillsSection = () => {
         ))}
       </div>
       <h3 className='text-2xl text-text-alter font-bold mt-10 mb-4'>Technologies</h3>
-      <div className='flex flex-wrap gap-2 mb-4'>
+      <div className='flex flex-wrap gap-2 mb-4 max-w-3xl'>
         {experience.technologies.map((technology) => (
           <div key={technology} className='flex items-center gap-2'>
             <span className='text-sm  bg-primary/20 px-3 py-1 rounded-lg border border-primary/20 text-text-alter'>
