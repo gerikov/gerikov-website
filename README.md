@@ -1,54 +1,56 @@
-# React + TypeScript + Vite
+# Gergo Kovacs - Frontend Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website showcasing my skills, projects, and experience as a frontend developer. Built
+with cutting-edge technologies and featuring smooth animations and interactive elements.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Modern Design**: Clean, minimalist design with a dark theme and professional aesthetics
+- **Responsive Layout**: Fully responsive design that works seamlessly across all devices
+- **Smooth Animations**: GSAP-powered animations and Framer Motion for engaging user interactions
+- **Interactive Elements**: Scramble text effects, TV noise overlay, and dynamic content loading
+- **Performance Optimized**: Lazy loading, optimized builds, and fast loading times
+- **TypeScript**: Full type safety and better development experience
+- **Tailwind CSS**: Utility-first styling with custom design system
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Core Technologies
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **React 19** - Latest React with concurrent features
+- **TypeScript** - Type-safe development
+- **Vite** - Fast build tool and development server
+- **Tailwind CSS 4** - Modern utility-first CSS framework
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Animation & Interaction
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- **GSAP** - Professional-grade animations
+- **@gsap/react** - React integration for GSAP
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+### Development Tools
+
+- **ESLint** - Code linting and quality
+- **TypeScript ESLint** - TypeScript-specific linting rules
+
+
+## 🚀 Performance Features
+
+- **Lazy Loading**: Components are loaded on demand
+- **Code Splitting**: Automatic code splitting with React.lazy()
+- **Optimized Assets**: Compressed images and optimized fonts
+- **Fast Builds**: Vite for lightning-fast development and builds
+
+### Styling
+
+- Use Tailwind classes for component-specific styling
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🤝 Contact
+
+- **Portfolio**: [gerikov.hu](https://gerikov.hu)
+- **LinkedIn**: [Your LinkedIn](https://www.linkedin.com/in/gerikov-solutions/)
+- **GitHub**: [Your GitHub](https://github.com/gerikov)
+- **Email**: developer@gerikov.hu
