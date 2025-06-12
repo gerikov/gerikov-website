@@ -1,11 +1,15 @@
 import { maxWidth } from '../../config'
+import { cn } from '../../lib/utils'
 import ScrambleText from '../common/ScrambleText'
 
 const HeroSection = () => {
   return (
     <>
       <section
-        className={`max-w-[${maxWidth}] w-full mx-auto min-h-[calc(100vh-4rem)] flex flex-col justify-center items-center  border-stone-800 px-4 sm:px-6 lg:px-8`}
+        className={cn(
+          'w-full mx-auto min-h-[calc(100vh-4rem)] flex flex-col justify-center items-center border-stone-800 px-4 sm:px-6 lg:px-8',
+          maxWidth
+        )}
       >
         <div className=' w-full min-h-[calc(100vh-4rem)] border-r border-l border-stone-800 flex flex-col justify-center items-center'>
           <h1 className='md:text-4xl text-3xl font-bold text-white mb-4 text-center'>

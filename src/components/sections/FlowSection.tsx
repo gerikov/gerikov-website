@@ -1,12 +1,20 @@
+import { maxWidth } from '../../config'
+import { cn } from '../../lib/utils'
 import Label from '../common/Label'
 
 const FlowSection = () => {
   return (
-    <section className='flex flex-col gap-10 py-10'>
+    <section className='flex flex-col gap-10 py-10 relative border-from-stone-800 border-to-transparent border-b border-t'>
+      <div
+        className={cn(
+          'absolute top-0 left-1/2 -translate-x-1/2 w-full h-full flex justify-center items-center',
+          maxWidth
+        )}
+      ></div>
       <div className='flex justify-center'>
         <Label>Process</Label>
       </div>
-      <div className='flex flex-wrap justify-center'>
+      <div className={cn('flex flex-wrap justify-center mx-auto', maxWidth)}>
         <FlowItem
           title='Research & Understand'
           description='I start by getting to know you, your goals, and your audience. This helps me uncover what your website really needs and how it can stand out in your industry.'
@@ -48,7 +56,7 @@ const FlowItem = ({
   number: string
 }) => {
   return (
-    <div className='group flex flex-col  border-1 border-stone-900 p-4 hover:bg-primary transition-all duration-300 max-w-[400px]'>
+    <div className='group flex flex-col  border-1 border-stone-900 p-4 hover:bg-primary transition-all duration-300 max-w-[320px]'>
       <div className='text-sm font-bold text-text-alter group-hover:text-white transition-all duration-300 flex items-center mb-4'>
         {number}
       </div>

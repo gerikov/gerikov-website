@@ -12,7 +12,7 @@ const MainContent = lazy(() => import('./components/sections/MainContent'))
 
 function App() {
   return (
-    <div className='min-h-screen bg-background'>
+    <div className='min-h-screen bg-background font-inter'>
       <TVNoise />
       <Header />
       <Suspense fallback={<Loading />}>

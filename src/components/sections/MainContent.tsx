@@ -3,6 +3,7 @@ import FlowSection from './FlowSection'
 import SkillsSection from './SkillsSection'
 import WorkExperienceSection from './WorkExperienceSection'
 import HeroSection from './HeroSection'
+import GradientDivider from '../common/GradientDivider'
 
 const MainContent: React.FC = () => {
   return (
@@ -13,8 +14,12 @@ const MainContent: React.FC = () => {
       {/* Projects Section */}
       <ProjectSection />
 
+      <GradientDivider className='my-10 max-w-[1000px] mx-auto' />
+
       {/* Flow Section */}
       <FlowSection />
+
+      <GradientDivider className='my-10 max-w-[1000px] mx-auto' />
 
       {/* Skills Section */}
       <SkillsSection />

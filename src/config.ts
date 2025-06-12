@@ -1,1 +1,1 @@
-export const maxWidth = '1300px'
+export const maxWidth = 'max-w-[1300px]'
