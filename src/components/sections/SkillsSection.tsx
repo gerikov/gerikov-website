@@ -7,7 +7,7 @@ import { cn } from '../../lib/utils'
 
 const SkillsSection = () => {
   return (
-    <section className={cn('py-10 mx-auto px-4', maxWidth)}>
+    <section className={cn('py-10 mx-auto px-4 md:px-6 lg:px-8', maxWidth)}>
       <div className='flex justify-center mb-10'>
         <Label>Skills</Label>
       </div>
@@ -33,6 +33,7 @@ const SkillsSection = () => {
       </div>
       <h3 className='text-2xl text-text-alter font-bold mt-10 mb-4'>Languages and Frameworks</h3>
       <div className='flex flex-wrap gap-4'>
+        {/* TODO: add icons for frameworks */}
         {experience.frameworks.map((framework) => (
           <SkillItem key={framework.name} name={framework.name} icon={framework.icon} />
         ))}

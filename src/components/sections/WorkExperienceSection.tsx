@@ -6,7 +6,7 @@ import { cn } from '../../lib/utils'
 
 const WorkExperienceSection = () => {
   return (
-    <section className={cn('py-10 mx-auto px-4', maxWidth)}>
+    <section className={cn('py-10 mx-auto px-4 md:px-6 lg:px-8', maxWidth)}>
       <div className='flex justify-center mb-10'>
         <Label>Work Experience</Label>
       </div>

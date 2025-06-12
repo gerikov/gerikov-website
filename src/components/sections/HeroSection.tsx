@@ -7,7 +7,7 @@ const HeroSection = () => {
     <>
       <section
         className={cn(
-          'w-full mx-auto min-h-[calc(100vh-4rem)] flex flex-col justify-center items-center border-stone-800 px-4 sm:px-6 lg:px-8',
+          'w-full mx-auto min-h-[calc(100vh-4rem)] flex flex-col justify-center items-center border-stone-800 px-4 md:px-6 lg:px-8',
           maxWidth
         )}
       >

@@ -4,6 +4,7 @@ import SkillsSection from './SkillsSection'
 import WorkExperienceSection from './WorkExperienceSection'
 import HeroSection from './HeroSection'
 import GradientDivider from '../common/GradientDivider'
+import ContactSection from './ContactSection'
 
 const MainContent: React.FC = () => {
   return (
@@ -28,14 +29,10 @@ const MainContent: React.FC = () => {
       <WorkExperienceSection />
 
       {/* Contact Section */}
-      <section id='contact' className='py-20'>
-        <h2 className='text-3xl font-bold text-stone-900 mb-8'>Contact</h2>
-        {/* Add your contact content here */}
-        <div className='h-screen'></div>
-        <div className='h-screen'></div>
-        <div className='h-screen'></div>
-        <div className='h-screen'></div>
-      </section>
+      <ContactSection />
+
+      <div className='h-screen'></div>
+      <div className='h-screen'></div>
     </main>
   )
 }
