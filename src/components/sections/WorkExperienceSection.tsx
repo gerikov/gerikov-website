@@ -1,4 +1,4 @@
-import Label from '../common/Label'
+import DisplayLabel from '../common/DisplayLabel'
 import experience from '../../assets/experience.json'
 import WorkExperienceItem from '../common/WorkExperienceItem'
 import { maxWidth } from '../../config'
@@ -8,7 +8,7 @@ const WorkExperienceSection = () => {
   return (
     <section className={cn('py-10 mx-auto px-4 md:px-6 lg:px-8', maxWidth)}>
       <div className='flex justify-center mb-10'>
-        <Label>Work Experience</Label>
+        <DisplayLabel>Work Experience</DisplayLabel>
       </div>
       <div className='border-1 border-stone-900'>
         {experience.experience.reverse().map((item, index) => (

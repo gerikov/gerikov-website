@@ -5,7 +5,7 @@ import { useRef } from 'react'
 
 import projectsData from '../../assets/projects.json'
 import ProjectCard from '../common/ProjectCard'
-import Label from '../common/Label'
+import DisplayLabel from '../common/DisplayLabel'
 import { maxWidth } from '../../config'
 import { cn } from '../../lib/utils'
 
@@ -74,7 +74,7 @@ const ProjectSection = () => {
     >
       <div className='projects-container relative '>
         <div className='flex justify-center project-title mb-10'>
-          <Label>Projects</Label>
+          <DisplayLabel>Projects</DisplayLabel>
         </div>
         <div className='flex flex-col gap-10 w-full top-20 left-0'>
           {projects.map((project, index) => (

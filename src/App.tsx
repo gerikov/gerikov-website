@@ -5,6 +5,7 @@ import TVNoise from './components/common/TVNoise'
 import './App.css'
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
+import Footer from './components/layout/Footer'
 
 gsap.registerPlugin(useGSAP)
 // Lazy load the main content
@@ -18,6 +19,7 @@ function App() {
       <Suspense fallback={<Loading />}>
         <MainContent />
       </Suspense>
+      <Footer />
     </div>
   )
 }

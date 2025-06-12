@@ -1,4 +1,4 @@
-import Label from '../common/Label'
+import DisplayLabel from '../common/DisplayLabel'
 
 import wave from '../../assets/patterns/wave.svg'
 import experience from '../../assets/experience.json'
@@ -7,11 +7,11 @@ import { cn } from '../../lib/utils'
 
 const SkillsSection = () => {
   return (
-    <section className={cn('py-10 mx-auto px-4 md:px-6 lg:px-8', maxWidth)}>
+    <section className={cn('py-10 mx-auto px-4 md:px-6 lg:px-8', maxWidth)} id='skills'>
       <div className='flex justify-center mb-10'>
-        <Label>Skills</Label>
+        <DisplayLabel>Skills</DisplayLabel>
       </div>
-      <div className='bg-primary p-6 font-medium rounded-xl flex items-center gap-4 max-w-5xl mx-auto relative'>
+      <div className=' bg-primary p-6 font-medium rounded-xl flex items-center gap-4 max-w-5xl mx-auto relative'>
         <div
           className='absolute top-0 left-0 w-full h-full'
           style={{

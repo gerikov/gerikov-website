@@ -30,9 +30,6 @@ const MainContent: React.FC = () => {
 
       {/* Contact Section */}
       <ContactSection />
-
-      <div className='h-screen'></div>
-      <div className='h-screen'></div>
     </main>
   )
 }

@@ -1,6 +1,6 @@
 import { maxWidth } from '../../config'
 import { cn } from '../../lib/utils'
-import Label from '../common/Label'
+import DisplayLabel from '../common/DisplayLabel'
 
 const FlowSection = () => {
   return (
@@ -12,7 +12,7 @@ const FlowSection = () => {
         )}
       ></div>
       <div className='flex justify-center'>
-        <Label>Process</Label>
+        <DisplayLabel>Process</DisplayLabel>
       </div>
       <div className={cn('flex flex-wrap justify-center mx-auto', maxWidth)}>
         <FlowItem
