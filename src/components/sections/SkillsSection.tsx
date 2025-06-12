@@ -32,7 +32,7 @@ const SkillsSection = () => {
         </div>
       </div>
       <h3 className='text-2xl text-text-alter font-bold mt-10 mb-4'>Languages and Frameworks</h3>
-      <div className='flex flex-wrap gap-4'>
+      <div className='flex flex-wrap gap-4 justify-evenly'>
         {/* TODO: add icons for frameworks */}
         {experience.frameworks.map((framework) => (
           <SkillItem key={framework.name} name={framework.name} icon={framework.icon} />
@@ -65,7 +65,7 @@ const SkillsSection = () => {
 
 const SkillItem = ({ name, icon = 'language' }: { name: string; icon: string }) => {
   return (
-    <div className='flex flex-col items-center justify-center gap-2 mb-1 bg-gradient-to-br from-primary/0 to-primary/15 p-2 rounded-lg text-text-alter border border-primary/20 w-32 h-24'>
+    <div className='flex flex-col items-center justify-center gap-2 mb-1 bg-gradient-to-br from-primary/0 to-primary/15 p-2 rounded-lg text-text-alter border border-primary/20 md:w-32 md:h-24 w-26 h-20'>
       <span className='material-symbols-outlined' style={{ fontSize: '20px' }}>
         {icon}
       </span>

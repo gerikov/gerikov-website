@@ -19,6 +19,7 @@ const images = import.meta.glob('../../assets/projects/*.(png|jpe?g|svg)', { eag
 
 const getImageUrl = (fileName: string): string => {
   // Find the image path that ends with the filename
+  // TODO: add fallback image
   const imagePath = Object.keys(images).find((path) => path.endsWith(`/${fileName}`))
   return imagePath ? images[imagePath].default : ''
 }
@@ -38,8 +39,8 @@ const ProjectSection = () => {
       gsap.utils.toArray('.project').forEach((obj, index, array) => {
         ScrollTrigger.create({
           trigger: obj as Element,
-          start: 'top 100px',
-          end: `${index < array.length - 1 ? 'bottom' : 'top'} 100px`,
+          start: 'top 50px',
+          end: `${index < array.length - 1 ? 'bottom' : 'top'} 50px`,
           scrub: 1,
           pin: true,
           pinSpacing: false,
