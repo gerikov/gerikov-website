@@ -27,9 +27,9 @@ const ProjectCard = ({ image, title, description, tags, link, github }: Props) =
               )}
               {github && (
                 <a href={github} target='_blank' rel='noopener noreferrer' className='text-primary'>
-                   <span className='material-symbols-outlined hover:text-primary/70 transition-all duration-300 '>
+                  <span className='material-symbols-outlined hover:text-primary/70 transition-all duration-300 '>
                     code
-                  </span> 
+                  </span>
                 </a>
               )}
             </div>

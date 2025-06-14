@@ -6,6 +6,7 @@ import './App.css'
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
 import Footer from './components/layout/Footer'
+import { Analytics } from '@vercel/analytics/react'
 
 gsap.registerPlugin(useGSAP)
 // Lazy load the main content
@@ -19,6 +20,7 @@ function App() {
       <Suspense fallback={<Loading />}>
         <MainContent />
       </Suspense>
+      <Analytics />
       <Footer />
     </div>
   )
