@@ -9,7 +9,7 @@ const Header: React.FC = () => {
             <div className='text-xl font-bold text-white uppercase '>Gergo Kovacs</div>
             <div className='text-sm text-primary uppercase'>Frontend Developer</div>
           </div>
-          <div className='flex items-center space-x-4 border-l '>
+          <div className='flex items-center space-x-4'>
             <a href='#skills' className='text-white/70 hover:text-primary  px-3 py-2 rounded-md text-sm font-medium'>
               About
             </a>

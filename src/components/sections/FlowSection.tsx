@@ -4,7 +4,7 @@ import DisplayLabel from '../common/DisplayLabel'
 
 const FlowSection = () => {
   return (
-    <section className='flex flex-col gap-10 py-10 relative border-from-stone-800 border-to-transparent border-b border-t px-4 md:px-6 lg:px-8'>
+    <section className='flex flex-col gap-10 py-10 relative  px-4 md:px-6 lg:px-8'>
       <div
         className={cn(
           'absolute top-0 left-1/2 -translate-x-1/2 w-full h-full flex justify-center items-center',
