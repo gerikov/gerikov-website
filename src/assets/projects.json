@@ -1,10 +1,18 @@
 [
   {
     "image": "apex.png",
+    "title": "Personal Website",
+    "description": "Designed and developed my personal website to showcase my skills and projects.",
+    "link": "https://gerikov.hu",
+    "github": "https://github.com/gergo-kovacs/gerikov.hu",
+    "tags": ["Design", "Figma", "UI/UX", "React", "TypeScript", "TailwindCSS", "Vercel", "Shadcn UI"]
+  },
+  {
+    "image": "apex.png",
     "title": "Apex Budapest Conference",
     "description": "I co-created this site with a friend to support the Apex Budapest conference. It provides key event details—like schedule, speakers, and venue info—along with helpful tips about Budapest, all in a clear and accessible format.",
     "link": "https://www.apex-budapest.com",
-    "tags": ["Design", "Figma", "UI/UX", "React", "TypeScript", "Strapi", "TailwindCSS"]
+    "tags": ["Design", "Figma", "UI/UX", "React", "TypeScript", "Strapi", "TailwindCSS", "Shadcn UI", "Vercel", "Axios"]
   },
   {
     "image": "igna.png",

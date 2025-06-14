@@ -78,14 +78,7 @@ const ProjectSection = () => {
         </div>
         <div className='flex flex-col gap-10 w-full top-20 left-0'>
           {projects.map((project, index) => (
-            <ProjectCard
-              key={index}
-              image={project.image}
-              title={project.title}
-              description={project.description}
-              link={project.link}
-              tags={project.tags}
-            />
+            <ProjectCard key={index} {...project} />
           ))}
         </div>
       </div>

@@ -59,6 +59,19 @@ const SkillsSection = () => {
           </li>
         ))}
       </ul>
+      <h3 className='text-2xl text-text-alter font-bold mt-10 mb-4'>Education</h3>
+      <ul>
+        {experience.education.map((education) => (
+          <li key={education.title} className='flex items-center gap-2 mb-1 text-text-alter'>
+            <span className='material-symbols-outlined' style={{ fontSize: '20px' }}>
+              school
+            </span>
+            <span>
+              <strong>{education.title}</strong> - {education.university} ({education.date})
+            </span>
+          </li>
+        ))}
+      </ul>
     </section>
   )
 }
